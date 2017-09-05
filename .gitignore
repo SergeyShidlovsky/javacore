@@ -34,6 +34,9 @@ cmake-build-debug/
 #HTML,PNG
 /build/reports*
 
+##Impl
+*.iml
+
 
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
