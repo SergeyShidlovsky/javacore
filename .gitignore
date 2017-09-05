@@ -28,6 +28,9 @@
 # CMake
 cmake-build-debug/
 
+##Impl
+*.iml
+
 #HTML,PNG
 /build/reports*
 
