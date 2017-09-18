@@ -36,7 +36,7 @@ public class Registration {
     }
 */
 
-    public void validation(String value, String value2) {
+    public static String validation(String value, String value2) {
         String message;
         String common = value + value2;
         System.out.println(common);
@@ -47,86 +47,114 @@ public class Registration {
             if (data[i] == ' ' ) {
                 message = "Space detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '"') {
                 message = " \" detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '`') {
                 message = " `  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '!') {
                 message = " !  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '@') {
                 message = " @  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '#') {
                 message = " #  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '$') {
                 message = " $  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '%') {
                 message = " %  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '^') {
                 message = " ^  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '*') {
                 message = " *  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '(') {
                 message = " (  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == ')') {
                 message = " )  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '-') {
                 message = " -  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '_') {
                 message = " _  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '=') {
                 message = " =  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '+') {
                 message = " +  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '/') {
                 message = " /  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '.') {
                 message = " .  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '?') {
                 message = " ?  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '>') {
                 message = " >  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == ',') {
                 message = " ,  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '<') {
                 message = " <  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == ';') {
                 message = " ;  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == ':') {
                 message = " :  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '&') {
                 message = " &  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else if (data[i] == '<') {
                 message = " <  detected";
                 System.out.println("Incorrect data " + message);
+                return message;
             } else {
                 message = "Correct data";
                 System.out.println(message);
+                return message;
             }
         }
+    return "h";
     }
 }
 
