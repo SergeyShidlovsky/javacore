@@ -10,6 +10,7 @@
 
     <properties>
         <junit.version>4.12</junit.version>
+        <pl.pragmatists.version>1.0.5</pl.pragmatists.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,6 +23,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>pl.pragmatists</groupId>
+            <artifactId>JUnitParams</artifactId>
+            <version>${pl.pragmatists.version}</version>
+        </dependency>
+
     </dependencies>
 
 </project>
