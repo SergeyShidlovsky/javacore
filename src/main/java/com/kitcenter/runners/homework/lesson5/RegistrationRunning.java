@@ -9,10 +9,17 @@ public class RegistrationRunning {
     public static void main(String[] args) {
         Registration reg = new Registration();
 
-        reg.setLogin();
+        //Here user gets array with login and Password  Strings
+        reg.setLoginPassword();
+        //Here login and Paswords strings are
         String login = reg.logpass[0];
         String password = reg.logpass[1];
 
+        //Here login and password strings are given to validation class
+        //to analyze each symbol
         reg.validation(login, password);
+
+        System.out.println();
+
     }
 }
