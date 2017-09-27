@@ -31,7 +31,7 @@ public class HomeTask7 {
         }
         scan.close();
         System.out.println("Here is the array " + list.toString());
-        System.out.println("Summ of all elements = " + summ);
+        System.out.println("Summ of all elements =  " + summ);
     }
 
 }
