@@ -9,16 +9,22 @@ import java.util.Scanner;
 public class Registration {
     String login;
     String password;
-    public String[] logpass; //This array is needed to save Login and Passwords walue
+    public String[] logpass; //This array is needed to save Login and Passwords value
+
+    //This method is starting scanning data from console
+    public String scanning(){
+        Scanner scan = new Scanner(System.in);
+        String data = scan.nextLine();
+        return data;
+    }
+
 
     //This method allows user to set Login and Password
     public String[] setLoginPassword(){
         System.out.print("Please insert login ");
         System.out.println("Use only numbers, letters");
-        Scanner scan = new Scanner(System.in);
-        login = scan.nextLine();
-        password = scan.nextLine();
-        scan.close();
+        login = scanning();
+        password = scanning();
         logpass = new String[]{login, password}; //Array with inserted login and Password
         return logpass;
     }
@@ -204,7 +210,6 @@ public class Registration {
             }
         }
         message = Arrays.toString(invalid_data);
-        System.out.println(message);
         return message;
     }
 }
