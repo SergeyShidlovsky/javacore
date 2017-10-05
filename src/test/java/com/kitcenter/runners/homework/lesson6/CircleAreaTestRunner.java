@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Nastya on 21.09.2017.
  */
-public class CircleArea {
+public class CircleAreaTest {
     public static void calculate(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please insert circle radius");
