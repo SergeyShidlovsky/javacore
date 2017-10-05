@@ -1,22 +1,28 @@
 package com.kitcenter.runners.homework.lesson6;
 
-import com.kitcenter.app.homework.lesson6.EvenOdd;
+import com.kitcenter.app.homework.lesson6.CompareNumbers;
 
 /**
  * Created by Nastya on 03.10.2017.
  */
-public class EvenOddRunning {
+public class CompareNumbersRunning {
 
     public static void main(String[] args) {
 
-        EvenOdd eo = new EvenOdd();
+        runCompareNumbers();
 
-        System.out.println("Please insert first integer number");
-        int a = eo.scanningInt();
-        System.out.println("Please insert second integer number");
-        int b = eo.scanningInt();
+    }
 
-        System.out.println( eo.checkEven(a , b));
+    public static void runCompareNumbers(){
+
+        CompareNumbers cn = new CompareNumbers();
+
+        System.out.println("Please insert first number");
+        double a = cn.scanningDouble();
+        System.out.println("Please insert second number");
+        double b = cn.scanningDouble();
+
+        System.out.println( cn.checkBigger(a , b));
 
     }
 }

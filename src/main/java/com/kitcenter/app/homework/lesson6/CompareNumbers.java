@@ -5,30 +5,22 @@ import java.util.Scanner;
 /**
  * Created by Nastya on 14.09.2017.
  */
-public class EvenOdd {
+public class CompareNumbers {
 
     //Method that is scanning data from keyboard
-    public static double scanningInt() {
+    public static double scanningDouble() {
         Scanner scanner = new Scanner(System.in);
-        double value = scanner.nextInt();
+        double value = scanner.nextDouble();
         return value;
     }
 
     //Method that is comparing numbers
-    public static String checkBigger(double a,double b) {
-        int max = 0;
-        int min = 0;
+    public static String checkBigger(double a, double b) {
         if (a > b) {
-            max = a;
-            min = b;
+            return a + " is bigger";
         } else {
-            max = b;
-            min = a;
+            return b + " is bigger";
         }
-        if ((max % min) == 0) {
-            return "Even";
-        } else {
-            return "Odd";
-        }
+
     }
 }
