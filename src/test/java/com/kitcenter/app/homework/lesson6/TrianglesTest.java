@@ -32,6 +32,7 @@ public class TrianglesTest {
         Assert.assertEquals(expRes, actRes);
     }
 
+
     @Test
     public void checkTriangleTest4() {
         double a = 3, b = 9, c = 0;
