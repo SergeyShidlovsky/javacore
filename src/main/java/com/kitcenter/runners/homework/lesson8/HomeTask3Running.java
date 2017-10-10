@@ -1,6 +1,6 @@
 package com.kitcenter.runners.homework.lesson7;
 
-import com.kitcenter.app.homework.lesson7.HomeTask3;
+import com.kitcenter.app.homework.lesson8.HomeTask3;
 
 /**
  * Created by Nastya on 25.09.2017.

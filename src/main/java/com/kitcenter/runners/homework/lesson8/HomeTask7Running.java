@@ -1,10 +1,6 @@
 package com.kitcenter.runners.homework.lesson7;
 
-import com.kitcenter.app.homework.lesson7.HomeTask7;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
+import com.kitcenter.app.homework.lesson8.HomeTask7;
 
 /**
  * Created by Nastya on 26.09.2017.
