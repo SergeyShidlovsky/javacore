@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Nastya on 05.10.2017.
  */
-public class PalindromeFive {
+public class Palindrome5Five {
 
     //Mrthod that performs scanning and returns line
     public String scanning(){

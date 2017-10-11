@@ -35,7 +35,7 @@ public class PrimitiveConvertor {
                         " Output char value is " + charVar);
             }
 
-        } ;
+        }
 
 
     public void charToInt(char char1){

@@ -1,4 +1,4 @@
-package com.kitcenter.app.homework.lesson7;
+package com.kitcenter.app.homework.lesson8;
 
 import java.util.Arrays;
 

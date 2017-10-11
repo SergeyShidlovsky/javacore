@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Nastya on 05.10.2017.
  */
-public class PalindromeThree {
+public class Palindrome3Three {
 
     //Mrthod that performs scanning and returns line
     public String scanning(){

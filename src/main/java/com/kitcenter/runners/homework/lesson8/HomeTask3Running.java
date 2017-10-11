@@ -1,4 +1,4 @@
-package com.kitcenter.runners.homework.lesson7;
+package com.kitcenter.runners.homework.lesson8;
 
 import com.kitcenter.app.homework.lesson8.HomeTask3;
 
