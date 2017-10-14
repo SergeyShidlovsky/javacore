@@ -6,7 +6,7 @@ import com.kitcenter.app.homework.lesson9.Palindrome4Four;
 /**
  * Created by Nastya on 07.10.2017.
  */
-public class Palindrome4FourRunning {
+public class Palindrome4FourRunner {
 
     public static void main(String[] args) {
         runPalindrome4Four();

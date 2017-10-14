@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson9.Palindrome2Two;
 /**
  * Created by Nastya on 07.10.2017.
  */
-public class Palindrome2TwoRunning {
+public class Palindrome2TwoRunner {
 
     public static void main(String[] args) {
 

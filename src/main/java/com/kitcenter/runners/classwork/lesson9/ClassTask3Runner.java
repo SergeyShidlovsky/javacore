@@ -5,7 +5,7 @@ import com.kitcenter.app.classwork.lesson9.ClassTask3;
 /**
  * Created by Nastya on 28.09.2017.
  */
-public class ClassTask3Running {
+public class ClassTask3Runner {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,6 @@
-package com.kitcenter.app.homework.lesson13;
+package com.kitcenter.app.homework.lesson13.bicycle;
+
+import com.kitcenter.app.homework.lesson13.bicycle.Bicycle;
 
 /**
  * Created by Nastya on 14.10.2017.

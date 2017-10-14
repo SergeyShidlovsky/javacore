@@ -5,7 +5,7 @@ import com.kitcenter.app.classwork.lesson7.LoopIncrement;
 /**
  * Created by Nastya on 21.09.2017.
  */
-public class LoopIncrementRunning {
+public class LoopIncrementRunner {
     public static void main(String[] args) {
 
         LoopIncrement run = new LoopIncrement();

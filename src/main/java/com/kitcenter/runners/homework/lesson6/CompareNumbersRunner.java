@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson6.CompareNumbers;
 /**
  * Created by Nastya on 03.10.2017.
  */
-public class CompareNumbersRunning {
+public class CompareNumbersRunner {
 
     public static void main(String[] args) {
 

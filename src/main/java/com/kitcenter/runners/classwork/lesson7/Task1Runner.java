@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Nastya on 21.09.2017.
  */
-public class Task1Running {
+public class Task1Runner {
     public static void main(String[] args) {
 
         Task1  t = new Task1();

@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson5.Calculation;
 /**
  * Created by Nastya on 18.09.2017.
  */
-public class CalculationRunning {
+public class CalculationRunner {
 
     public static void main(String[] args) {
         Calculation c = new Calculation();

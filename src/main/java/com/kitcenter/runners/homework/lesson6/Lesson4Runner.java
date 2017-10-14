@@ -9,6 +9,13 @@ public class Lesson4Runner {
 
     public static void main(String[] args) {
 
+        //Launching running all tasks in lesson6
+        runLesson4runner();
+    }
+
+    //Method that is launching Running Lesson4Runner
+    public static void runLesson4runner(){
+
         //Introduction of menu
         System.out.println("=================Menu================");
         System.out.println("1 - Circle Area calculation");
@@ -24,6 +31,7 @@ public class Lesson4Runner {
         //Giving scanner2 object to exec() method
         exec(scanner2);
     }
+
 
     //Method that recieves scanner2 object and
     //causes reset of some class execution after
@@ -48,29 +56,28 @@ public class Lesson4Runner {
     }
 
     //Method that recieves a scanner2 object and executes all classes in current package
-    char c;
     public static void exec( Scanner scanner2 ){
         if (scanner2.hasNextInt()) {
             int choice = scanner2.nextInt();
             if (choice > 0 && choice <= 5) {
                 switch (choice) {
                     case 1:
-                        CircleAreaRunning.runCircleArea();
+                        CircleAreaRunner.runCircleArea();
                         //Resetting execution after completed previus class execution
                         resetExec(scanner2);
                         break;
                     case 2:
-                        CompareNumbersRunning.runCompareNumbers();
+                        CompareNumbersRunner.runCompareNumbers();
                         //Resetting execution after completed previus class execution
                         resetExec(scanner2);
                         break;
                     case 3:
-                        EvenOddRunning.runEvenOdd();
+                        EvenOddRunner.runEvenOdd();
                         //Resetting execution after completed previus class execution
                         resetExec(scanner2);
                         break;
                     case 4:
-                        TrianglesRunning.runTriangles();
+                        TrianglesRunner.runTriangles();
                         //Resetting execution after completed previus class execution
                         resetExec(scanner2);
                         break;

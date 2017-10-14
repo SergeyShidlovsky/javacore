@@ -1,10 +1,5 @@
 package com.kitcenter.runners.homework.lesson9;
 
-import com.kitcenter.runners.homework.lesson6.CircleAreaRunning;
-import com.kitcenter.runners.homework.lesson6.CompareNumbersRunning;
-import com.kitcenter.runners.homework.lesson6.EvenOddRunning;
-import com.kitcenter.runners.homework.lesson6.TrianglesRunning;
-
 import java.util.Scanner;
 
 /**
@@ -72,27 +67,27 @@ public class Lesson9Runner {
             if (choice > 0 && choice <= 6) {
                 switch (choice) {
                     case 1:
-                        Palindrome1OneRunning.runPalindrome1One();
+                        Palindrome1OneRunner.runPalindrome1One();
                         //Resetting execution after completed previus class execution
                         resetExec(scanner2);
                         break;
                     case 2:
-                        Palindrome2TwoRunning.runPalindrome2Two();;
+                        Palindrome2TwoRunner.runPalindrome2Two();;
                         //Resetting execution after completed previous class execution
                         resetExec(scanner2);
                         break;
                     case 3:
-                        Palindrome3ThreeRunning.runPalindrome3Three();
+                        Palindrome3ThreeRunner.runPalindrome3Three();
                         //Resetting execution after completed previous class execution
                         resetExec(scanner2);
                         break;
                     case 4:
-                        Palindrome4FourRunning.runPalindrome4Four();
+                        Palindrome4FourRunner.runPalindrome4Four();
                         //Resetting execution after completed previous class execution
                         resetExec(scanner2);
                         break;
                     case 5:
-                        Palindrome5FiveRunning.runPalindrome5Five();
+                        Palindrome5FiveRunner.runPalindrome5Five();
                         //Resetting execution after completed previous class execution
                         resetExec(scanner2);
                         break;

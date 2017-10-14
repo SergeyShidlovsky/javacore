@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Nastya on 21.09.2017.
  */
-public class EvenCounterRunning {
+public class EvenCounterRunner {
 
     public static void main(String[] args) {
         EvenCounter count = new EvenCounter();

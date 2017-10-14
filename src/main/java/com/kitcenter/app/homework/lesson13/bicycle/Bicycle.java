@@ -1,4 +1,4 @@
-package com.kitcenter.app.homework.lesson13;
+package com.kitcenter.app.homework.lesson13.bicycle;
 
 /**
  * Created by Nastya on 14.10.2017.

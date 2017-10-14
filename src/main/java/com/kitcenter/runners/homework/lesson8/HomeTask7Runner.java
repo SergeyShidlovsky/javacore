@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson8.HomeTask7;
 /**
  * Created by Nastya on 26.09.2017.
  */
-public class HomeTask7Running {
+public class HomeTask7Runner {
     public static void main(String[] args) {
 
         HomeTask7 task7 = new HomeTask7();

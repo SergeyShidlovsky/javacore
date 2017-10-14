@@ -1,9 +1,9 @@
 package com.kitcenter.runners.homework.lesson13;
 
-import com.kitcenter.app.homework.lesson13.Bicycle;
-import com.kitcenter.app.homework.lesson13.BicycleWithRing;
-import com.kitcenter.app.homework.lesson13.BicycleWithRingInterface;
-import com.kitcenter.app.homework.lesson13.CustomBicycle;
+import com.kitcenter.app.homework.lesson13.bicycle.Bicycle;
+import com.kitcenter.app.homework.lesson13.bicycle.BicycleWithRing;
+import com.kitcenter.app.homework.lesson13.bicycle.BicycleWithRingInterface;
+import com.kitcenter.app.homework.lesson13.bicycle.CustomBicycle;
 
 /**
  * Created by Nastya on 14.10.2017.

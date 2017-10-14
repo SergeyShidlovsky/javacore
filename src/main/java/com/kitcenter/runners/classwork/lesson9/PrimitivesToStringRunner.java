@@ -5,7 +5,7 @@ import com.kitcenter.app.classwork.lesson9.PrimitivesToString;
 /**
  * Created by Nastya on 28.09.2017.
  */
-public class PrimitivesToStringRunning {
+public class PrimitivesToStringRunner {
     public static void main(String[] args) {
 
         PrimitivesToString  pts = new PrimitivesToString();

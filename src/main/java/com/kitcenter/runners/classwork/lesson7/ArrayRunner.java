@@ -5,7 +5,7 @@ import com.kitcenter.app.classwork.lesson7.Array;
 /**
  * Created by Nastya on 21.09.2017.
  */
-public class ArrayRunning {
+public class ArrayRunner {
 
     public static void main(String[] args) {
 

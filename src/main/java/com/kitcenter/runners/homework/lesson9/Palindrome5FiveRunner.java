@@ -6,7 +6,7 @@ import com.kitcenter.app.homework.lesson9.Palindrome5Five;
 /**
  * Created by Nastya on 07.10.2017.
  */
-public class Palindrome5FiveRunning {
+public class Palindrome5FiveRunner {
 
     public static void main(String[] args) {
 

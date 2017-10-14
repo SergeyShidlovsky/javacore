@@ -6,7 +6,7 @@ import com.kitcenter.app.classwork.lesson5.EvenOrOdd;
 /**
  * Created by Nastya on 14.09.2017.
  */
-public class EvenOrOddRurrinig {
+public class EvenOrOddRunner {
 
     public static void main(String[] args) {
         EvenOrOdd even = new EvenOrOdd();

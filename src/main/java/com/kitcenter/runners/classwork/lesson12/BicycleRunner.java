@@ -5,7 +5,7 @@ import com.kitcenter.app.classwork.lesson12.Bicycle;
 /**
  * Created by Nastya on 10.10.2017.
  */
-public class BicycleRunning {
+public class BicycleRunner {
 
     public static void main(String[] args) {
 

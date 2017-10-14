@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson6.Triangles;
 /**
  * Created by Nastya on 02.10.2017.
  */
-public class TrianglesRunning {
+public class TrianglesRunner {
     public static void main(String[] args) {
 
         runTriangles();

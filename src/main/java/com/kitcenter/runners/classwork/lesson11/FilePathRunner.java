@@ -5,7 +5,7 @@ import com.kitcenter.app.classwork.lesson11.FilePath;
 /**
  * Created by Nastya on 05.10.2017.
  */
-public class FilePathRunning {
+public class FilePathRunner {
 
     public static void main(String[] args) {
 

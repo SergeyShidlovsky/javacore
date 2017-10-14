@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson12.Human;
 /**
  * Created by Nastya on 11.10.2017.
  */
-public class HumanRunning {
+public class HumanRunner {
 
     public static void main(String[] args) {
 

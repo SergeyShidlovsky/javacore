@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson5.Registration;
 /**
  * Created by Nastya on 17.09.2017.
  */
-public class RegistrationRunning {
+public class RegistrationRunner {
     public static void main(String[] args) {
         Registration reg = new Registration();
 

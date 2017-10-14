@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson6.CircleArea;
 /**
  * Created by Nastya on 01.10.2017.
  */
-public class CircleAreaRunning {
+public class CircleAreaRunner {
     public static void main(String[] args) {
 
         runCircleArea();

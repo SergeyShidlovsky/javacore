@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Nastya on 12.10.2017.
  */
-public class WhiteCollarRunning{
+public class WhiteCollarRunner {
     public static void main(String[] args) {
 
         runWhiteCollarRunning();

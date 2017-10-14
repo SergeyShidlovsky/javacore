@@ -6,7 +6,7 @@ import com.kitcenter.app.classwork.lesson12.Student;
 /**
  * Created by Nastya on 10.10.2017.
  */
-public class StudentRunning {
+public class StudentRunner {
 
     public static void main(String[] args) {
 

@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson9.Palindrome3Three;
 /**
  * Created by Nastya on 07.10.2017.
  */
-public class Palindrome3ThreeRunning {
+public class Palindrome3ThreeRunner {
 
     public static void main(String[] args) {
 

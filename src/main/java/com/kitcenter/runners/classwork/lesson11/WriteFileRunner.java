@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * Created by Nastya on 05.10.2017.
  */
-public class WriteFileRunning {
+public class WriteFileRunner {
 
     public static void main(String[] args) {
 

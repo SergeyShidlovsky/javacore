@@ -1,6 +1,6 @@
-package com.kitcenter.app.utils.runners;
+package com.kitcenter.runners.homework.lesson4;
 
-import com.kitcenter.app.utils.convertors.PrimitiveConvertor;
+import com.kitcenter.app.homework.lesson4.PrimitiveConvertor;
 
 import java.util.Scanner;
 
@@ -9,6 +9,13 @@ import java.util.Scanner;
  */
 public class Lesson3Runner {
     public static void main(String[] args) {
+
+        //Launching running of lesson 3
+        runLesson3Runner();
+    }
+
+    //Method that implements running logic of Lesson3Runner class
+    public static void runLesson3Runner(){
 
         System.out.println("Lets convert primitives");
         Scanner scanner = new Scanner(System.in);
@@ -31,10 +38,5 @@ public class Lesson3Runner {
         pc.floatToChar(f);
         pc.charToInt(c);
         pc.intToChar(i);
-
-
-
-
-
     }
 }

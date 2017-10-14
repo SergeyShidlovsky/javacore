@@ -5,7 +5,7 @@ import com.kitcenter.app.homework.lesson9.Palindrome1One;
 /**
  * Created by Nastya on 07.10.2017.
  */
-public class Palindrome1OneRunning {
+public class Palindrome1OneRunner {
 
     public static void main(String[] args) {
 
