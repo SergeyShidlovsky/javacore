@@ -1,4 +1,4 @@
-package com.kitcenter.runners.homework.lesson13;
+package com.kitcenter.runners.homework.lesson13.bicycle;
 
 import com.kitcenter.app.homework.lesson13.bicycle.Bicycle;
 import com.kitcenter.app.homework.lesson13.bicycle.BicycleWithRing;
@@ -14,7 +14,6 @@ public class Lesson13Runner {
 
         //Running program
         runLesson13Running();
-
     }
 
     //Method with running logic
