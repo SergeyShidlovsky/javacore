@@ -16,4 +16,20 @@ public class Teacher extends Person {
     public String lessonFinished(){
         return "Do not forget to make homework";
     }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Teacher)) return false;
+
+        Teacher teacher = (Teacher) o;
+
+        return university != null ? university.equals(teacher.university) : teacher.university == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return university != null ? university.hashCode() : 0;
+    }
 }

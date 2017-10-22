@@ -41,7 +41,7 @@ public class BouquetRunner {
         bouquet.setCornflower(cornflower);    //Setting cornflower to Bouquet
         bouquet.setFern(fern);                //Setting fern to Bouquet
 
-        //Showing Quantity of flovers in Boucket and total price
+        //Showing Quantity of flowers in Boucket and total price
         System.out.println("Quantity of flowers in bouquet:" +
                 "\n -" + bouquet.getRose().getName() + "s = " +
                 bouquet.getRose().getQuantity() +

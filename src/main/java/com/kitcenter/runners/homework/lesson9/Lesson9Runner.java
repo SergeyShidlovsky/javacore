@@ -60,7 +60,6 @@ public class Lesson9Runner {
     }
 
     //Method that recieves a scanner2 object and executes all classes in current package
-    char c;
     public static void exec( Scanner scanner2 ){
         if (scanner2.hasNextInt()) {
             int choice = scanner2.nextInt();

@@ -1,4 +1,4 @@
-package com.kitcenter.runners.classwork.lesson15;
+package com.kitcenter.app.classwork.lesson15;
 
 /**
  * Created by Nastya on 19.10.2017.

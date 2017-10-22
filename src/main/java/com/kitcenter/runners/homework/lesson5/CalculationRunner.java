@@ -8,6 +8,13 @@ import com.kitcenter.app.homework.lesson5.Calculation;
 public class CalculationRunner {
 
     public static void main(String[] args) {
+
+        runCalculationRunner();
+
+    }
+
+    public static void runCalculationRunner(){
+
         Calculation c = new Calculation();
         int a = 2;
         int b = -3;
