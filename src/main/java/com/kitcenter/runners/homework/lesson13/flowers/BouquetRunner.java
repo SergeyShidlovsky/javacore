@@ -10,6 +10,11 @@ public class BouquetRunner {
 
     public static void main(String[] args) {
 
+        runBouquetRunner();
+    }
+
+    public static void runBouquetRunner(){
+
         //Creation of roses
         Flower rose = new Flower();
         rose.setName("rose");
@@ -51,10 +56,10 @@ public class BouquetRunner {
                 bouquet.getCornflower().getQuantity() +
                 "\n -" + bouquet.getFern().getName() + "s = " +
                 bouquet.getFern().getQuantity() +
-                    "\nTotal cost = " +
-                    ((bouquet.getRose().getQuantity() * bouquet.getRose().getPrise()) +
-                    (bouquet.getChamomile().getQuantity() * bouquet.getChamomile().getPrise()) +
-                    (bouquet.getCornflower().getQuantity() * bouquet.getCornflower().getPrise()) +
-                    (bouquet.getFern().getQuantity() * bouquet.getFern().getPrise())) );
+                "\nTotal cost = " +
+                ((bouquet.getRose().getQuantity() * bouquet.getRose().getPrise()) +
+                        (bouquet.getChamomile().getQuantity() * bouquet.getChamomile().getPrise()) +
+                        (bouquet.getCornflower().getQuantity() * bouquet.getCornflower().getPrise()) +
+                        (bouquet.getFern().getQuantity() * bouquet.getFern().getPrise())) );
     }
 }

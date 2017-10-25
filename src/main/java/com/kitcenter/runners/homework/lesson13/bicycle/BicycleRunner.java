@@ -8,16 +8,16 @@ import com.kitcenter.app.homework.lesson13.bicycle.CustomBicycle;
 /**
  * Created by Nastya on 14.10.2017.
  */
-public class Lesson13Runner {
+public class BicycleRunner {
 
     public static void main(String[] args) {
 
         //Running program
-        runLesson13Running();
+        runBicycleRunner();
     }
 
     //Method with running logic
-    public static void runLesson13Running() {
+    public static void runBicycleRunner() {
 
         runRide();
         runSetGiarAndRide();

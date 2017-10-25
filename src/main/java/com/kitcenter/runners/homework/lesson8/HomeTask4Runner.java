@@ -9,6 +9,12 @@ public class HomeTask4Runner {
 
     public static void main(String[] args) {
 
+        //Launching Home task4
+        runHomeTask4Runner();
+    }
+
+    public static void runHomeTask4Runner(){
+
         HomeTask4 task4 = new HomeTask4();
 
         task4.fillRandomValues();

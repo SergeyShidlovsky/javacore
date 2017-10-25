@@ -5,16 +5,16 @@ import java.util.Scanner;
 /**
  * Created by Nastya on 28.09.2017.
  */
-public class Lesson4Runner {
+public class Lesson6Runner {
 
     public static void main(String[] args) {
 
         //Launching running all tasks in lesson6
-        runLesson4runner();
+        runLesson6runner();
     }
 
-    //Method that is launching Running Lesson4Runner
-    public static void runLesson4runner(){
+    //Method that is launching Running Lesson6Runner
+    public static void runLesson6runner(){
 
         //Introduction of menu
         System.out.println("=================Menu================");

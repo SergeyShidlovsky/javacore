@@ -6,7 +6,7 @@ package com.kitcenter.app.homework.lesson13.computer;
 public abstract class Computer {
 
     private String name;
-    private String cpu = "Intel Pemtium 4";
+    private String cpu = "Intel Pentium 4";
 
     public String changeCPU( String cpu){
         setCpu(cpu);

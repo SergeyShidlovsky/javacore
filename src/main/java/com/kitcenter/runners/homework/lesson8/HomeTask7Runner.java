@@ -8,6 +8,12 @@ import com.kitcenter.app.homework.lesson8.HomeTask7;
 public class HomeTask7Runner {
     public static void main(String[] args) {
 
+        //Launch Home Task 7
+        runHomeTask7Runner();
+    }
+
+    public static void runHomeTask7Runner(){
+
         HomeTask7 task7 = new HomeTask7();
 
         System.out.println("Please enter numbers for Array creation");
@@ -15,7 +21,6 @@ public class HomeTask7Runner {
         System.out.println("just enter 'exit' word");
 
         task7.fillShowAndCount();
-
 
     }
 }

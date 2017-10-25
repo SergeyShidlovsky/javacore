@@ -7,6 +7,12 @@ import com.kitcenter.app.homework.lesson5.Registration;
  */
 public class RegistrationRunner {
     public static void main(String[] args) {
+
+        //launching registration
+        runRegistrationRunner();
+    }
+
+    public static void runRegistrationRunner(){
         Registration reg = new Registration();
 
         //Here user gets array with login and Password  Strings

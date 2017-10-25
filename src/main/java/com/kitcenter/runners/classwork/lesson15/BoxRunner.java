@@ -1,6 +1,6 @@
-package com.kitcenter.runners.classwork.lesson16;
+package com.kitcenter.runners.classwork.lesson15;
 
-import com.kitcenter.app.classwork.lesson16.Box;
+import com.kitcenter.app.classwork.lesson15.Box;
 
 /**
  * Created by Nastya on 24.10.2017.

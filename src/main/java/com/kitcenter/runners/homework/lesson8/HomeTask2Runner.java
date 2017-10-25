@@ -8,6 +8,12 @@ import com.kitcenter.app.homework.lesson8.HomeTask2;
 public class HomeTask2Runner {
     public static void main(String[] args) {
 
+        //Launching home task
+        runHomeTask2Runner();
+
+    }
+
+    public static void runHomeTask2Runner(){
         HomeTask2 task2 = new HomeTask2();
 
         task2.fillMassive();

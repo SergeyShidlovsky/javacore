@@ -8,6 +8,12 @@ import com.kitcenter.app.homework.lesson8.HomeTask3;
 public class HomeTask3Runner {
     public static void main(String[] args) {
 
+       //Launching home task
+        runHomeTask3Runner();
+    }
+
+    public static void runHomeTask3Runner(){
+
         HomeTask3 task3 = new HomeTask3();
 
         task3.fillArrayRandom();

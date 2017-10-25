@@ -8,6 +8,10 @@ import com.kitcenter.app.homework.lesson8.HomeTask1;
 public class HomeTask1Runner {
     public static void main(String[] args) {
 
+        runHomeTask1Runner();
+    }
+
+    public static void runHomeTask1Runner(){
         HomeTask1 ht = new HomeTask1();
 
         ht.createArray();

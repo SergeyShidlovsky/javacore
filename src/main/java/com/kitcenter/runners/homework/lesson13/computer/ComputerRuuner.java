@@ -14,6 +14,12 @@ public class ComputerRuuner {
 
     public static void main(String[] args) {
 
+        //Launching Computer runner
+        runComputerRunner();
+    }
+
+    public static void runComputerRunner(){
+
         //Creating objects of computers
         Lenovo lenovo = new Lenovo();
         lenovo.setName("Lenovo");

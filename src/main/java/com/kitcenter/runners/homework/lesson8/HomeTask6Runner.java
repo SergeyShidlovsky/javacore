@@ -8,11 +8,14 @@ import com.kitcenter.app.homework.lesson8.HomeTask6;
 public class HomeTask6Runner {
     public static void main(String[] args) {
 
+        //Launching Home task 6
+        runHomeTask6Runner();
+    }
+
+    public static void runHomeTask6Runner(){
         HomeTask6 task6 = new HomeTask6();
 
         task6.fillRndValues();
         task6.alignToRight();
-
-
     }
 }
